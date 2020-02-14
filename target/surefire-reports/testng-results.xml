@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="69047" started-at="2020-01-05T15:28:14Z" finished-at="2020-01-05T15:29:23Z">
+    <groups>
+    </groups>
+    <test name="Title ahd assertion validation" duration-ms="24723" started-at="2020-01-05T15:28:14Z" finished-at="2020-01-05T15:28:38Z">
+      <class name="work.titlevalidate">
+        <test-method status="PASS" signature="launch()[pri:0, instance:work.titlevalidate@49ec71f8]" name="launch" is-config="true" duration-ms="23295" started-at="2020-01-05T20:58:14Z" finished-at="2020-01-05T20:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="hBrowser()[pri:0, instance:work.titlevalidate@49ec71f8]" name="hBrowser" duration-ms="409" started-at="2020-01-05T20:58:37Z" finished-at="2020-01-05T20:58:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hBrowser -->
+        <test-method status="PASS" signature="navClose()[pri:0, instance:work.titlevalidate@49ec71f8]" name="navClose" is-config="true" duration-ms="1003" started-at="2020-01-05T20:58:37Z" finished-at="2020-01-05T20:58:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navClose -->
+      </class> <!-- work.titlevalidate -->
+    </test> <!-- Title ahd assertion validation -->
+    <test name="validation" duration-ms="52867" started-at="2020-01-05T15:28:14Z" finished-at="2020-01-05T15:29:06Z">
+      <class name="work.validation">
+        <test-method status="PASS" signature="launch()[pri:0, instance:work.validation@67c27493]" name="launch" is-config="true" duration-ms="26545" started-at="2020-01-05T20:58:14Z" finished-at="2020-01-05T20:58:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="oBrowser()[pri:0, instance:work.validation@67c27493]" name="oBrowser" duration-ms="22861" started-at="2020-01-05T20:58:40Z" finished-at="2020-01-05T20:59:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oBrowser -->
+        <test-method status="PASS" signature="clear()[pri:0, instance:work.validation@67c27493]" name="clear" is-config="true" duration-ms="3459" started-at="2020-01-05T20:59:03Z" finished-at="2020-01-05T20:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clear -->
+      </class> <!-- work.validation -->
+    </test> <!-- validation -->
+    <test name="full application" duration-ms="69042" started-at="2020-01-05T15:28:14Z" finished-at="2020-01-05T15:29:23Z">
+      <class name="work.application">
+        <test-method status="PASS" signature="launch()[pri:0, instance:work.application@4f83df68]" name="launch" is-config="true" duration-ms="7286" started-at="2020-01-05T20:58:14Z" finished-at="2020-01-05T20:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:work.application@4f83df68]" name="openBrowser" duration-ms="49961" started-at="2020-01-05T20:58:21Z" data-provider="getData" finished-at="2020-01-05T20:59:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@qw.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345634324243234323]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="openBrowser(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:work.application@4f83df68]" name="openBrowser" duration-ms="10744" started-at="2020-01-05T20:59:11Z" data-provider="getData" finished-at="2020-01-05T20:59:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restricted.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[312323]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricted user]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="navClose()[pri:0, instance:work.application@4f83df68]" name="navClose" is-config="true" duration-ms="987" started-at="2020-01-05T20:59:22Z" finished-at="2020-01-05T20:59:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navClose -->
+      </class> <!-- work.application -->
+    </test> <!-- full application -->
+  </suite> <!-- Suite -->
+</testng-results>

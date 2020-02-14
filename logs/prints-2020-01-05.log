@@ -1,0 +1,8 @@
+19:42:42.527 [main] INFO  resources.base - value matches
+19:42:46.082 [main] INFO  resources.base - user ID entered
+20:58:21.399 [TestNG-tests-3] INFO  resources.base - driver initialised
+20:58:37.420 [TestNG-tests-1] INFO  work.application - url is opened for tittle
+20:58:40.672 [TestNG-tests-2] INFO  resources.base - url entered for validation
+20:58:41.122 [TestNG-tests-2] INFO  resources.base - success
+20:58:46.371 [TestNG-tests-3] INFO  resources.base - url opened
+20:58:46.552 [TestNG-tests-3] INFO  resources.base - value matches

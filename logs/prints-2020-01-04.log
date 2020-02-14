@@ -1,0 +1,9 @@
+18:43:45.715 [main] INFO  work.application - url is opened for tittle
+18:44:05.873 [main] INFO  resources.base - url entered for validation
+18:44:06.077 [main] INFO  resources.base - success
+18:44:17.288 [main] INFO  resources.base - driver initialised
+18:44:22.617 [main] INFO  resources.base - url opened
+18:44:22.687 [main] INFO  resources.base - value matches
+18:44:29.722 [main] INFO  resources.base - user ID entered
+18:44:36.074 [main] INFO  resources.base - url opened
+18:44:36.154 [main] INFO  resources.base - value matches

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="work.listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test name="validation(failed)">
+    <classes>
+      <class name="work.validation">
+        <methods>
+          <include name="clear"/>
+          <include name="oBrowser"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- work.validation -->
+    </classes>
+  </test> <!-- validation(failed) -->
+</suite> <!-- Failed suite [Suite] -->

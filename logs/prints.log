@@ -1,0 +1,4 @@
+20:59:05.987 [TestNG-tests-3] INFO  resources.base - user ID entered
+20:59:14.863 [TestNG-tests-3] INFO  resources.base - url opened
+20:59:14.982 [TestNG-tests-3] INFO  resources.base - value matches
+20:59:21.690 [TestNG-tests-3] INFO  resources.base - user ID entered
